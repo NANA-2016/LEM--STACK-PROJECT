@@ -164,9 +164,7 @@ The first screen shot shows the commands run on git bash while the second screen
 
 ![file edition with nanao and flie removal for security purposes](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/229b840f-a19a-4e87-8b23-afa59d0d903a)
 
-![Screenshot 2023-10-01 205004](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/1d1e7869-b4e6-4f30-b54f-bd36d6840845)
-
-
+![server info](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/97ccb5ee-51b2-4c1f-8dc9-81ec69da1d62)
 
 
 
