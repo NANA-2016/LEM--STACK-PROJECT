@@ -75,6 +75,36 @@ by the screen shots below.
 
 ![remove insecure default settings](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/f9ecd949-d6e4-4e61-8c1d-6d59d31c9bb0)
 
+ From here noew we camn have the mandate to to start the interactive script by making a choice to set up a password or no proceed without one.
+
+ By running the commands $ sudo mysql_secure_installation which will give you several step to step triggers. In this project No password was set up.
+ 
+ ![mysql secure installation](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/f5a82139-3f46-4191-9fee-0411892a5231)
+
+ Incase one used a password, You can run the command $ 'sudo mysql -p' with -p as a trigger for password  then at exit MySQL.
+
+ You need to user use a password to commect to the root user .For security purposes it is important to have user accounts with less expansive 
+ 
+ priviledges set up for every database.
+
+ Running the commandd below shows your data base is working.
+
+ ![image](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/106a08b7-3416-4809-b205-891a5cbb63bb)
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
 
 
 
