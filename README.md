@@ -22,6 +22,18 @@ this is always highlighted in green writing as active(running) as demonstrated b
  
 ![sudo systemctl Nginx](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/3064318d-19ff-4567-b988-fa375d0125c3)
 
+To be able toto get any traffic to the Nginx webserver, we need to open a default port 'TCP port 80' that will allow web browsers to web pages in the 
+
+internet from any IP address hence showing the source to be  '0.0.0.0/0' as demonstrated below
+
+![tcp port 80](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/0b362f08-7a9d-49bc-b06e-b768133b4849)
+
+
+
+
+
+
+
 
  
 
