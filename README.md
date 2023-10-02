@@ -91,6 +91,25 @@ by the screen shots below.
 
  ![image](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/106a08b7-3416-4809-b205-891a5cbb63bb)
 
+ ## Step -3 Installing PHP
+
+ $ sudo apt install php-fpm php-mysql as a command is used to install
+
+ - php-fpm (PHP fastCGI process manager ) and tell Nginx to pass PHP requests to these software for processing
+
+ -  php MySQL allows PHP to communicate with Mysql based database
+
+   Atrigger of y/n is expected to allow installation .
+
+    See the screenshot below of the sreen results.
+
+    ![php-fpm php-mysql](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/476bdffb-eabc-4dbb-9bb5-6552d699f41d)
+
+
+
+
+ 
+
 
  
 
