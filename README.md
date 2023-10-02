@@ -165,7 +165,7 @@ The first screen shot shows the commands run on git bash while the second screen
 
 ![server info](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/97ccb5ee-51b2-4c1f-8dc9-81ec69da1d62)
 
-## Retriving data from MySQL.
+## Step -6  Retriving data from MySQL.
 
 First we need to connect MySQL to the root console after which we can noew run all the comands we need to by running the command '$ sudo mysql'
 
