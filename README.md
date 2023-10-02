@@ -117,7 +117,9 @@ place incase the client request doesn't match any other site . We then assisgn o
  
  Lastly you can now test the configuration
  
-  All the above are set up usinfg the following commands as listed below and results showwn on the screenshot there after.
+  All the above are set up usinfg the following commands as listed below and results showwn on the screenshot there after which shows the commands as
+  
+  the last three commands run on the screenshot.
 
   - $ sudo mkdir /var/www/projectLEMP
 
@@ -130,6 +132,40 @@ place incase the client request doesn't match any other site . We then assisgn o
 - $ sudo nginx -t
 
 ![mkdir projectLEMP](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/b8ab3c94-e73a-44f1-b2ca-8accbeb3833a)
+
+ We need to change the default Nginix host configured to run on the on Prt 80 by running 'sudo unlink /etc/nginx/sites-enabled/default' command and 
+ 
+ then run '$ sudo systemctl reload nginx' command to reload Nginx and apply the changes you have made .
+
+ To test the new server , we coppied the test below using sudo echo command  which is expected to reflect on the webpage by opening the website URL 
+ 
+ using IP address:http://18.132.195.227:80
+ 
+'sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s 
+
+http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectLEMP/index.html'
+
+ The below screen shots demonstrate the above explanation.
+
+![UNLINK,RELOAD AND RUN PAGE](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/bce5dbb8-0388-4c86-8d41-beb33c376e7a)
+
+URL access:http://18.132.195.227:80
+
+![URL PAGE](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/ccdd0395-5b2c-43bf-b55f-ff8555904818)
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
 
 
 
