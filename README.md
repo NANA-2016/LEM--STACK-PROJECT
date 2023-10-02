@@ -99,11 +99,12 @@ by the screen shots below.
 
  -  php MySQL allows PHP to communicate with Mysql based database
 
-   Atrigger of y/n is expected to allow installation .
+   A trigger of y/n is expected to allow installation .
 
-    See the screenshot below of the sreen results.
+See the screenshot below of the sreen results.
 
-    ![php-fpm php-mysql](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/a7b7dfc5-8d68-4e78-9158-e007eaf40f6f)
+
+ ![php-fpm php-mysql](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/a7b7dfc5-8d68-4e78-9158-e007eaf40f6f)
 
 
     
