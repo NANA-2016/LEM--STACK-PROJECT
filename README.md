@@ -16,6 +16,14 @@ These is shown on the two screenshots attached below.
 
 ![sudo apt install nginx](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/2e5d27b1-0f33-4423-95d6-9684a79ca2aa)
 
+ To ensure Nginx web server is installed and is running in the cloud ,we use the command  '$ sudo systemctl status nginx'
+ 
+this is always highlighted in green writing as active(running) as demonstrated below.
+ 
+![sudo systemctl Nginx](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/3064318d-19ff-4567-b988-fa375d0125c3)
+
+
+ 
 
 
 
