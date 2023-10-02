@@ -40,6 +40,19 @@ In this project the first command was used .
 
 ![curl command](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/91907b2e-928d-416c-baea-42aad5caadcf)
 
+ To acess the web server on the browser, we need to use our IP address from AWS. You can go and get the ip adress fron the console on the instance or
+ 
+you can retrive it using the following command curl -s http://169.254.169.254/latest/meta-data/public-ipv4 Aas demonstated by the screen shots below.
+
+![ip address retrival](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/920fcfda-4990-4306-87be-2248b0882514)
+
+![console ip address](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/80419a44-e4c0-46bf-9d5b-a1243f32f621)
+
+
+
+
+
+
 
 
 
