@@ -28,6 +28,23 @@ internet from any IP address hence showing the source to be  '0.0.0.0/0' as demo
 
 ![tcp port 80](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/0b362f08-7a9d-49bc-b06e-b768133b4849)
 
+fist we try and chech if we can access the webserver in the ubuntu shell usind the curl commands:
+
+- $ curl http://localhost:80
+
+or
+
+- $ curl http://127.0.0.1:80
+
+In this project the first command was used .
+
+![curl command](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/91907b2e-928d-416c-baea-42aad5caadcf)
+
+
+
+
+
+
 
 
 
