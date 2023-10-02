@@ -55,13 +55,35 @@ you can retrive it using the following command curl -s http://169.254.169.254/la
  ![nginx from the web](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/b40acfc0-7ccf-4952-9d4e-3a3ca997cafd)
 
 
- ##Step- 2 Installing MySQL
+ ## Step- 2 Installing MySQL
  
 $ sudo apt install mysql-server  is a the first commands used to help install MySQL to enable us handle database on Nginx Sserver.
 
 See below screenshot.
 
 ![install mysql server](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/0f992100-f407-4f05-b568-cb8eebe71372)
+
+To connect to the Mysql to administrative data base root, we run a command '$ sudo mysql' the screenshot below demonstrates the output expected to 
+
+show the conection has taken place.
+
+![sudo mysql](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/692a50f8-8b2c-45d1-b3e1-ac957fdae830)
+
+To remove any insecure default settings and lockdown to any user , we set a password to the root user .  This is run using the commands demonstrated
+
+by the screen shots below. 
+
+![remove insecure default settings](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/f9ecd949-d6e4-4e61-8c1d-6d59d31c9bb0)
+
+
+
+
+
+
+
+
+
+
 
 
 
