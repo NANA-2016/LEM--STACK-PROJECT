@@ -153,7 +153,6 @@ URL access:http://18.132.195.227:80
 
 ![URL PAGE](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/ccdd0395-5b2c-43bf-b55f-ff8555904818)
 
-
 ## Step-5 Testing PHP with Nginx
 
 in this step, you can do the testing by creating a test PHP file in this case its info.php using the nano editor by getting information a bout your 
@@ -165,6 +164,63 @@ The first screen shot shows the commands run on git bash while the second screen
 ![file edition with nanao and flie removal for security purposes](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/229b840f-a19a-4e87-8b23-afa59d0d903a)
 
 ![server info](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/97ccb5ee-51b2-4c1f-8dc9-81ec69da1d62)
+
+## Retriving data from MySQL.
+
+First we need to connect MySQL to the root console after which we can noew run all the comands we need to by running the command '$ sudo mysql'
+
+ We can now create a new database after which we create a new user for the database .See the screen shots below.
+
+![create database](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/7b0865f4-34f2-4383-93cb-705e59854c25)
+
+![create a new use plus grant permission](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/a0f7ab19-09f8-4099-8d35-18b8e5b9d522)
+
+  The new user needs a password to allow only him to acess the database and make changes if to it and to end it all as the root user, you alspo need 
+  
+  to grant permission to the new user to acesss the database as shown above on the last command on the screenshot above.
+
+ To confirm that the new user has access to the new database, we neend to get acess to the MYsql console created and by using the password created. 
+ 
+  AFter that 
+  
+mysql> SHOW DATABASES; will give me the ouput below which will be demonstrated on the scren shot below.
+
+![show database](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/76c7f947-e99e-4785-a75a-f813d364eb49)
+
+
+ After that we can create a test table as shown below by typing  CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content 
+ 
+ VARCHAR(255),PRIMARY KEY(item_id)); as below
+
+ ![create a table](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/88d8f9da-ec0b-4ff0-8346-4a264b7c3133)
+
+
+ mysql> INSERT INTO example_database.todo_list (content) VALUES ("My first important item"); will enable use insert a few rows into the test table 
+ 
+ content 
+
+![insert rows](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/8fcc2f3f-9a3b-4ab1-9514-4c514245af4e)
+ 
+
+ to confirm the data was sucessfully saved we run mysql>  SELECT * FROM example_database.todo_list;only one row was inserted.
+
+ ![select from example](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/e7a74aa7-7e23-460e-8cc0-e4ff34a6c1ca)
+
+
+$ nano /var/www/projectLEMP/todo_list.php is a command used to connect MySQL database and querries the content of the to do list table and displays 
+
+the list in a table 
+
+Hence you can now access the to do list on the web as demonstrated below where only one row was inserted .
+
+![to do url](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/55876ff3-df1e-45be-acaa-058882f34a0f)
+
+ 
+
+
+
+
+
 
 
 
