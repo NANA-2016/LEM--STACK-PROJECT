@@ -55,6 +55,21 @@ you can retrive it using the following command curl -s http://169.254.169.254/la
  ![nginx from the web](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/b40acfc0-7ccf-4952-9d4e-3a3ca997cafd)
 
 
+ ##Step- 2 Installing MySQL
+ 
+$ sudo apt install mysql-server  is a the first commands used to help install MySQL to enable us handle database on Nginx Sserver.
+
+See below screenshot.
+
+![install mysql server](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/0f992100-f407-4f05-b568-cb8eebe71372)
+
+
+
+
+
+ 
+
+
  
 
  
