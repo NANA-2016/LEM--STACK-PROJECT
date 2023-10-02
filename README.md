@@ -103,8 +103,13 @@ by the screen shots below.
 
     See the screenshot below of the sreen results.
 
-    ![php-fpm php-mysql](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/476bdffb-eabc-4dbb-9bb5-6552d699f41d)
+    ![php-fpm php-mysql](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/a7b7dfc5-8d68-4e78-9158-e007eaf40f6f)
 
+
+    
+
+  
+    
 
 
 
