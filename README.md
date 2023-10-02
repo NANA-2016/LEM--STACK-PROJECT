@@ -48,6 +48,18 @@ you can retrive it using the following command curl -s http://169.254.169.254/la
 
 ![console ip address](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/80419a44-e4c0-46bf-9d5b-a1243f32f621)
 
+ URL http://<Public-IP-Address>:80 helps use to test the Nginx server can respond to requests from the internet.  below page is what is expected to 
+ 
+ demonstrate these.
+
+ ![nginx from the web](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/b40acfc0-7ccf-4952-9d4e-3a3ca997cafd)
+
+
+ 
+
+ 
+
+
 
 
 
