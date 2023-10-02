@@ -107,6 +107,40 @@ See the screenshot below of the sreen results.
  ![php-fpm php-mysql](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/a7b7dfc5-8d68-4e78-9158-e007eaf40f6f)
 
 
+## Step-4 Configuring nginx to use PHP processor.
+
+We create a directory to allow use to host multiple sites(SERVER BLOCKS) as Nginx on Ubuntu has a default directory  /var/www/html which we leave in 
+
+place incase the client request doesn't match any other site . We then assisgn ownership of the set up directory  .
+
+ we later need to create a file directory. Later we now activate the file  by linking it to the which will pass the make Nginx to use the conf file next time its reloaded.
+ 
+ Lastly you can now test the configuration
+ 
+  All the above are set up usinfg the following commands as listed below and results showwn on the screenshot there after.
+
+  - $ sudo mkdir /var/www/projectLEMP
+
+-  $ sudo chown -R $USER:$USER /var/www/projectLEMP
+
+- $ sudo nano /etc/nginx/sites-available/projectLEMP
+
+- $ sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/
+
+- $ sudo nginx -t
+
+![mkdir projectLEMP](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/b8ab3c94-e73a-44f1-b2ca-8accbeb3833a)
+
+
+
+
+
+
+
+
+
+
+
     
 
   
