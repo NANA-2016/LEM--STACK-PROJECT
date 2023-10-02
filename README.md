@@ -154,6 +154,27 @@ URL access:http://18.132.195.227:80
 ![URL PAGE](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/ccdd0395-5b2c-43bf-b55f-ff8555904818)
 
 
+## Step-5 Testing PHP with Nginx
+
+in this step, you can do the testing by creating a test PHP file in this case its info.php using the nano editor by getting information a bout your 
+
+server using URL. Later the file is removed as the web page generated has sensitve information about your server .
+
+The first screen shot shows the commands run on git bash while the second screenshot is a demonstration of the server information from the web page.
+
+![file edition with nanao and flie removal for security purposes](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/229b840f-a19a-4e87-8b23-afa59d0d903a)
+
+![Screenshot 2023-10-01 205004](https://github.com/NANA-2016/LEM--STACK-PROJECT/assets/141503408/1d1e7869-b4e6-4f30-b54f-bd36d6840845)
+
+
+
+
+
+
+
+
+
+
 
 
 
